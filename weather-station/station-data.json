@@ -1,0 +1,72 @@
+{
+  "windDirection": 34,
+  "forecastOverview": [
+    {
+      "date": "2025-06-06",
+      "morning": {
+        "weatherCode": 14,
+        "weatherDesc": "",
+        "weatherIconUrl": "https://s3.amazonaws.com/static.weatherlink.com/images/forecast/Cloudy.png",
+        "temp": 26,
+        "chanceofrain": 0,
+        "rainInInches": 0.0
+      },
+      "afternoon": {
+        "weatherCode": 14,
+        "weatherDesc": "Overcast",
+        "weatherIconUrl": "https://s3.amazonaws.com/static.weatherlink.com/images/forecast/Cloudy.png",
+        "temp": 26,
+        "chanceofrain": 0,
+        "rainInInches": 0.0
+      },
+      "evening": {
+        "weatherCode": 13,
+        "weatherDesc": "Cloudy",
+        "weatherIconUrl": "https://s3.amazonaws.com/static.weatherlink.com/images/forecast/Cloudy.png",
+        "temp": 19,
+        "chanceofrain": 0,
+        "rainInInches": 0.0
+      },
+      "night": {
+        "weatherCode": 14,
+        "weatherDesc": "Overcast",
+        "weatherIconUrl": "https://s3.amazonaws.com/static.weatherlink.com/images/forecast/Cloudy.png",
+        "temp": 17,
+        "chanceofrain": 0,
+        "rainInInches": 0.0
+      }
+    }
+  ],
+  "highAtStr": null,
+  "loAtStr": null,
+  "timeZoneId": "America/Toronto",
+  "timeFormat": "Hr24",
+  "barometerUnits": "hPa",
+  "windUnits": "knots",
+  "rainUnits": "mm",
+  "tempUnits": "&deg;C",
+  "temperatureFeelLike": "23.3",
+  "temperature": "23.3",
+  "hiTemp": "23.6",
+  "hiTempDate": 1749230074000,
+  "loTemp": "12.7",
+  "loTempDate": 1749203013000,
+  "wind": "5.6",
+  "gust": "7.0",
+  "gustAt": 1749232534000,
+  "humidity": "55.3",
+  "rain": "0.0",
+  "seasonalRain": "23.4",
+  "barometer": "1013.6",
+  "barometerTrend": "Falling Slowly",
+  "lastReceived": 1749232774000,
+  "systemLocation": "Ottawa, ON, CAN",
+  "aqsLocation": null,
+  "aqsLastReceived": null,
+  "thwIndex": null,
+  "thswIndex": null,
+  "aqi": null,
+  "aqiString": null,
+  "aqiScheme": null,
+  "noAccess": null
+}
