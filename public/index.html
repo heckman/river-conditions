@@ -18,10 +18,18 @@
 
         #webcam {
             width: 100%;
-            aspect-ratio: 16 / 9;
+            height: calc(100vh - 240px);
             position: absolute;
             top: 0;
             left: 0;
+
+            iframe {
+                /* margin-top: -32px; */
+                margin-top: -360px;
+                width: 100%;
+                height: 100%;
+                height: calc(100% + 360px);
+            }
         }
 
         #current-conditions {
@@ -70,9 +78,9 @@
 
 <body>
     <main>
-        <iframe id="webcam"
-            src="https://g1.ipcamlive.com/player/player.php?alias=662ee8387b2e3river&autoplay=1&disableuserpause=1"
-            allowfullscreen></iframe>
+        <div id="webcam"><iframe
+                src="https://g1.ipcamlive.com/player/player.php?alias=662ee8387b2e3river&autoplay=1&mute=1&disableautofullscreen=0"
+                allowfullscreen></iframe></div>
         <div id="current-conditions"><iframe
                 src="https://www.weatherlink.com/embeddablePage/show/778b7c6ed488407687f6fb9e47f62f9a/wide"
                 allowfullscreen></iframe></div>
