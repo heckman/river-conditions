@@ -29,24 +29,25 @@
             background-color: #f2f2f2;
             bottom: 0;
             left: 0;
-            width: 760px;
-            height: 200px;
+            width: 540px;
+            height: 240px;
         }
 
         #forecast {
-            display: none;
             position: fixed;
             /* background-color: yellow; */
-            background-color: #f2f2f2;
+            background-color: #3c464d;
             bottom: 0;
             right: 0;
-            width: calc(100% - 760px);
-            height: 200px;
+            width: calc(100vw - 540px);
+            height: 240px;
+            overflow: hidden;
 
-            canvas {
-                width: 100%;
-                height: 100%;
-                background-color: aqua;
+            iframe {
+                margin-top: -29px;
+                margin-left: -12px;
+                height: 330px;
+                width: calc(100vw - 538px);
             }
         }
 
@@ -65,11 +66,11 @@
             src="https://g1.ipcamlive.com/player/player.php?alias=662ee8387b2e3river&autoplay=1&disableuserpause=1"
             allowfullscreen></iframe>
         <iframe id="current-conditions"
-            src="https://www.weatherlink.com/embeddablePage/show/778b7c6ed488407687f6fb9e47f62f9a/signature"
+            src="https://www.weatherlink.com/embeddablePage/show/778b7c6ed488407687f6fb9e47f62f9a/wide"
             allowfullscreen></iframe>
-        <div id="forecast">
-            <canvas id="chart"></canvas>
-        </div>
+        <div id="forecast"><iframe
+                src="https://widgets.sailflow.com/widgets/web/modelTable?spot_id=533201&units_wind=kts&units_temp=C&width=7400&height=310&color=3c464d"
+                allowfullscreen></iframe></div>
     </main>
     <script>
 
